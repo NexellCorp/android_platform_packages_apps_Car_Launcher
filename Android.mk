@@ -50,6 +50,10 @@ LOCAL_STATIC_JAVA_LIBRARIES := \
 
 LOCAL_JAVA_LIBRARIES += android.car
 
+ifeq ($(NEXELL_QUICKBOOT), true)
+LOCAL_MANIFEST_FILE := AndroidManifestQ.xml
+endif
+
 include $(BUILD_PACKAGE)
 
 endif
