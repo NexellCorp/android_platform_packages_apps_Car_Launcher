@@ -26,7 +26,6 @@
     <application
         android:label="@string/app_title"
         android:icon="@drawable/ic_launcher_home"
-        android:directBootAware="true"
         android:theme="@style/Theme.Car.Light.NoActionBar">
         <activity
             android:name=".HomeActivity"
